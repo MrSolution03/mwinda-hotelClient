@@ -1,0 +1,44 @@
+/* src/assets/main.css */
+
+/* 3. Importer les polices depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap');
+/* 1. Définition des variables de la marque */
+:root {
+  --primary-color: #1e3a8a; /* Un bleu marine profond et professionnel */
+  --accent-color: #f59e0b;  /* Un or/ambre chaleureux pour le luxe */
+  --text-color: #1f2937;
+  --text-color-secondary: #6b7280;
+  --background-color: #f9fafb;
+  --surface-color: #ffffff;
+  --border-color: #e5e7eb;
+}
+
+/* 2. Application globale des polices et couleurs */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--primary-color);
+}
