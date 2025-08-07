@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const api = axios.create({
   // PROBLÈME 1 CORRIGÉ : Utiliser le bon port pour le backend
-  baseURL: 'http://localhost:3000/api', 
+  baseURL: 'https://hotel-mwinda.onrender.com/api', 
   headers: {
     'Content-Type': 'application/json',
   },
